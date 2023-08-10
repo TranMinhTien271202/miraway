@@ -1,0 +1,81 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+.title {
+    padding-top: 70px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.input .from-control .name {
+    width: 980px;
+    height: 48px;
+    border-radius: 12px;
+    border: 1px solid #E6E8EC;
+}
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+.from-control{
+    padding-bottom: 30px;
+}
+.custom-file-input::before {
+    content: 'Chọn File';
+    display: inline-block;
+    border: 1px solid #E6E8EC;
+    border-radius: 12px;
+    padding: 20px 8px;
+    cursor: pointer;
+    width: 230px;
+    height: 8px;
+    position: relative;
+    
+}
+.select {
+    width: 700px;
+    height: 48px;
+    position: relative;
+    left: 279px;
+    bottom: 96px;
+    border-radius: 12px;
+    border: 1px solid #E6E8EC;
+}
+.cate{
+    position: relative;
+    bottom: 98px;
+    left: 280px;
+}
+.title-name, .file, .cate, .content {
+    color: #B1B5C3;
+    font-size: 12px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+.btn-button{
+    cursor: pointer;
+    width: 138px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    background-color: #0066E6;
+}
+.input{
+    padding-bottom: 15px;
+}
+.button{
+    text-align: right;
+}
